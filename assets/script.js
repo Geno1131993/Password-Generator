@@ -12,7 +12,7 @@ $("#submit").on("click", function (e) {
 
     const chars = [];
 
-    if($("#length").val() < 8 || "#length").val() > 128){
+    if($("#length").val() < 8 || $("#length").val() > 128){
             alert("Password length invalid! Please input a value between 8 and 128.");
     }
     else{
