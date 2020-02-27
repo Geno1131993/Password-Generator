@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <head>
+        <title>
+            Password Generator
+        </title>
+    </head>
+
+
+    <form class = "container">
+        <div id = "password_length">
+            
+            <label for = "length">Enter password length:</label>
+            <input type = "text" id = "length" name = "length"><br>
+
+            Do you want special characters?<br>
+
+  
+            <input type = "radio" id = "yes_special" name = "special" value = "yes"> Yes<br>
+            <input type = "radio" id = "no_special" name = "special" value = "no"> No<br>
+
+
+            Do you want numbers?<br>
+
+            
+            <input type = "radio" id = "yes_numbers" name = "numbers" value = "yes"> Yes<br>
+            <input type = "radio" id = "no_numbers" name = "numbers" value = "no"> No<br>
+
+
+            Do you want lowercase letters?<br>
+
+            <input type = "radio" id = "yes_lower" name = "lower" value = "yes"> Yes<br>
+            <input type = "radio" id = "no_lower" name = "lower" value = "no"> No<br>
+
+            Do you want uppercase letters?<br>
+
+            
+            <input type = "radio" id = "yes_upper" name = "upper" value = "yes"> Yes<br>
+            <input type = "radio" id = "no_upper" name = "upper" value = "no"> No<br>
+
+            <input type = "submit" id = "submit" value = "Submit">
+        </div>
+    </form>
+
+    
+    <br>Viable passwords:<br>
+
+    <ul id = "viable_passwords">
+        
+    </ul>
+
+    
+
+    <script src = "assets/script.js"></script>
+</html>
